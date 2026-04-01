@@ -1,0 +1,42 @@
+/* utilizzo box-sizing di tipo border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+}
+
+.banner {
+  height: 268px;  
+  background-image: url("./assets/img/banner.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+    background-color: #191d7b;
+    padding: 5em 3em;
+}
+
+.hero {
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: "Sigmar", sans-serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 2.6em;
+    margin-bottom: 0.4em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-weight: 900;
+}
