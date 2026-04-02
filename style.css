@@ -19,7 +19,7 @@ body {
 
 main {
     background-color: #191d7b;
-    padding: 5em 3em;
+    padding: 5em;
 }
 
 .hero {
@@ -32,11 +32,55 @@ main {
     font-family: "Sigmar", sans-serif;
     text-transform: uppercase;
     line-height: 1em;
-    font-size: 2.6em;
+    font-size: 2.3em;
     margin-bottom: 0.4em;
 }
 
 .hero p {
-    font-size: 1.2em;
-    font-weight: 900;
+    font-size: 1.05em;
+    font-weight: 300;
+}
+
+button{
+    width: 100%;
+    display: block;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.1em;
+}
+
+#cta2 {
+    background-color: #5865f2;
+    color: #ffffff;
+}
+
+.card  {
+    background-color: #5d64d1;
+    color: #ffffff;
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 25px;
+}
+
+h2 {
+    font-family: "Sigmar", sans-serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 2.3em;
+    margin-bottom: 0.4em;
+}
+
+.card p {
+    font-family: "DM Sans", sans-serif;
+}
+
+.badge {
+    width: 100px;
+    position: relative;
+}
+
+.demo {
+    max-width: 100%;
+    border-radius: 25px;
 }
